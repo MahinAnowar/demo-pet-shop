@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="tailwind.config.js"></script> -->
     <link rel="stylesheet" href="styles/style.css">
     <title>Pet Shop</title>
 </head>
 <body>
-    
+
+    <header>
+        <div class="navbar bg-base-100 main-font lg:px-32 md:px-16 px-4 bg-[#FFF9F4]">
+            <div class="navbar-start">
+                
+              <img src="assets/logo-header.png" alt="" class="w-6 h-6 mr-[-16px]">  
+              <a class="btn btn-ghost text-xl flex gap-0"><span>Browse</span><span class="text-[#FFDC26]">4</span><span>Pets</span></a>
+
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-xl text-[#111111]">
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end text-xl flex gap-4">
+              <i class="fa-regular fa-bell hidden lg:block cursor-pointer"></i>
+              <i class="fa-solid fa-magnifying-glass hidden lg:block cursor-pointer"></i>
+              <a class="btn hidden lg:block bg-transparent	border-2 border-[#FFDC26] flex items-center justify-center px-4 py-4">Login</a>
+              <a class="btn hidden lg:block flex items-center justify-center px-4 py-4 bg-[#FFDC26]">Register</a>
+              <i class="fa-solid fa-bars lg:hidden cursor-pointer"></i>
+            </div>
+          </div>
+
+
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="px-4 md:px-16 lg:px-32 py-16 flex-col">
+            <div class="lg:w-6/12">
+                <h1 class="text-3xl lg:text-6xl title-font mb-4">Pamper Your Pet, Because They Deserve the Best</h1>
+                <p class="text-base lg:text-xl main-font mb-6">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="text-base lg:text-xl main-font bg-[#FFDC26] font-medium p-4 rounded-lg animate-bounce shadow-lg shadow-orange-500/50">Find a pet</button>
+            </div>
+            <div class="lg:mt-[-280px] mt-[-80px] ">
+                <img src="assets/cat-big.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer></footer>
 </body>
 </html>
