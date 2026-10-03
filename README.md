@@ -60,3 +60,5 @@ This project serves as a practical application of the Tailwind CSS utility-first
 ---
 
 *This project reflects learning in responsive web design utilizing the Tailwind CSS framework, as required by the course assignment.*
+
+Thank you for visiting our pet shop!
